@@ -11,7 +11,11 @@ Query! Suppose you are a new player and want to know which weapons drop from the
         From Guns
         Where gun_source = 'Moon';
 
-Note: * just means all. Make sure that whatever you are looking for is within ''
+Note: The Select statement specifies which columns you want returned in a query. In this case, we want to see all the columns, so we use * which means all.
+
+The From statement specifies the table. We are working with the guns table so we just put guns. 
+
+The where function acts as a filter within a column. In this query, we want to look for entries in the table where the gun source is the Moon.
 
 # Step 4 
 You can go even further!
