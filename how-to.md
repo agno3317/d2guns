@@ -27,7 +27,7 @@ you would type:
         where weapon type = 'hand_cannon'
         and gun_element = 'Void';
 
-Note: The where function in SQL is case sensitive. If you want to bypass that restriction, you can use the lower function which will convert all the characters in the column to lower case for the query
+Note: The where function in SQL is case sensitive in some softwares (pgadmin looking at you). If you want to bypass that restriction, you can use the lower function which will convert all the characters in the column to lower case for the query
 As an example, the previous query would be written as:
 
         Select * 
