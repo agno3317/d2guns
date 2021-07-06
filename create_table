@@ -1,0 +1,16 @@
+CREATE TABLE guns
+
+(
+	gun_name varchar(100),
+	gun_archetype varchar(100),
+	gun_source varchar(100),
+	gun_element varchar (7),
+	gun_RoF integer,
+	rarity varchar (10),
+	weapon_type varchar (20)
+);
+
+COPY guns from 'C:\Users\your_name\Desktop\guns.csv' delimiter ',' csv header
+
+SELECT * 
+FROM guns
