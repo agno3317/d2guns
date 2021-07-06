@@ -35,6 +35,6 @@ As an example, the previous query would be written as:
         where lower(weapon type) = 'hand_cannon'
         and lower(gun_element) = 'void';
 
-Make sure that everything inside '' is in lowecase when using lower. 
+Make sure that everything inside '' is in lowercase when using lower. 
 
 That's all folks!
