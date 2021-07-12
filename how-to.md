@@ -38,3 +38,5 @@ As an example, the previous query would be written as:
 Make sure that everything inside '' is in lowercase when using lower. 
 
 That's all folks!
+
+Update 7/12/2021: I have made an extended tutorial on how to normalize and make a view. If you are interested, go normalization_view.sql in main
