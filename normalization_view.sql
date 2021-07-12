@@ -432,7 +432,8 @@ VALUES ('Loud Lullaby', 'Aggressive', 'Moon','Kinetic',120,'Legendary','hand_can
 select * from guns; 
 
 /* Normalization starts here. Make tables for each of the non integer columns that are not the primary key or integer (So everything except gun_name and gun_RoF). 
-   We want these tables to contain each of the distinct values from the original column and assign it an id. The id will appear on the final table insteaad of the full value. This makes the database run faster since it has to return smaller values.  
+   We want these tables to contain each of the distinct values from the original column and assign it an id. The id will appear on the final table instead of the full value. 
+   This makes the database run faster since it has to return smaller values.  
    */
 
 ---- Archetype
